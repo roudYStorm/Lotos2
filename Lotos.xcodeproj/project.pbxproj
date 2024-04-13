@@ -16,6 +16,18 @@
 		EB2C0B802BC0691000DE0268 /* LotosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB2C0B7F2BC0691000DE0268 /* LotosTests.swift */; };
 		EB2C0B8A2BC0691000DE0268 /* LotosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB2C0B892BC0691000DE0268 /* LotosUITests.swift */; };
 		EB2C0B8C2BC0691000DE0268 /* LotosUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB2C0B8B2BC0691000DE0268 /* LotosUITestsLaunchTests.swift */; };
+		EB2C0CA12BC95CBB00DE0268 /* Alegreya-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EB2C0C962BC95CBB00DE0268 /* Alegreya-Italic.ttf */; };
+		EB2C0CA22BC95CBB00DE0268 /* Alegreya-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EB2C0C972BC95CBB00DE0268 /* Alegreya-ExtraBold.ttf */; };
+		EB2C0CA32BC95CBB00DE0268 /* Alegreya-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EB2C0C982BC95CBB00DE0268 /* Alegreya-MediumItalic.ttf */; };
+		EB2C0CA42BC95CBB00DE0268 /* Alegreya-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EB2C0C992BC95CBB00DE0268 /* Alegreya-ExtraBoldItalic.ttf */; };
+		EB2C0CA52BC95CBB00DE0268 /* Alegreya-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EB2C0C9A2BC95CBB00DE0268 /* Alegreya-Bold.ttf */; };
+		EB2C0CA62BC95CBB00DE0268 /* Alegreya-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EB2C0C9B2BC95CBB00DE0268 /* Alegreya-BlackItalic.ttf */; };
+		EB2C0CA72BC95CBB00DE0268 /* Alegreya-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EB2C0C9C2BC95CBB00DE0268 /* Alegreya-BoldItalic.ttf */; };
+		EB2C0CA82BC95CBB00DE0268 /* Alegreya-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EB2C0C9D2BC95CBB00DE0268 /* Alegreya-Black.ttf */; };
+		EB2C0CA92BC95CBB00DE0268 /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = EB2C0C9E2BC95CBB00DE0268 /* OFL.txt */; };
+		EB2C0CAA2BC95CBB00DE0268 /* Alegreya-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EB2C0C9F2BC95CBB00DE0268 /* Alegreya-Regular.ttf */; };
+		EB2C0CAB2BC95CBB00DE0268 /* Alegreya-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EB2C0CA02BC95CBB00DE0268 /* Alegreya-Medium.ttf */; };
+		EBD0C1122BCA9EFE0099A0E0 /* EmptyScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD0C1112BCA9EFE0099A0E0 /* EmptyScreenViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +61,18 @@
 		EB2C0B852BC0691000DE0268 /* LotosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LotosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB2C0B892BC0691000DE0268 /* LotosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LotosUITests.swift; sourceTree = "<group>"; };
 		EB2C0B8B2BC0691000DE0268 /* LotosUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LotosUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EB2C0C962BC95CBB00DE0268 /* Alegreya-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Alegreya-Italic.ttf"; sourceTree = "<group>"; };
+		EB2C0C972BC95CBB00DE0268 /* Alegreya-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Alegreya-ExtraBold.ttf"; sourceTree = "<group>"; };
+		EB2C0C982BC95CBB00DE0268 /* Alegreya-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Alegreya-MediumItalic.ttf"; sourceTree = "<group>"; };
+		EB2C0C992BC95CBB00DE0268 /* Alegreya-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Alegreya-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		EB2C0C9A2BC95CBB00DE0268 /* Alegreya-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Alegreya-Bold.ttf"; sourceTree = "<group>"; };
+		EB2C0C9B2BC95CBB00DE0268 /* Alegreya-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Alegreya-BlackItalic.ttf"; sourceTree = "<group>"; };
+		EB2C0C9C2BC95CBB00DE0268 /* Alegreya-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Alegreya-BoldItalic.ttf"; sourceTree = "<group>"; };
+		EB2C0C9D2BC95CBB00DE0268 /* Alegreya-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Alegreya-Black.ttf"; sourceTree = "<group>"; };
+		EB2C0C9E2BC95CBB00DE0268 /* OFL.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OFL.txt; sourceTree = "<group>"; };
+		EB2C0C9F2BC95CBB00DE0268 /* Alegreya-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Alegreya-Regular.ttf"; sourceTree = "<group>"; };
+		EB2C0CA02BC95CBB00DE0268 /* Alegreya-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Alegreya-Medium.ttf"; sourceTree = "<group>"; };
+		EBD0C1112BCA9EFE0099A0E0 /* EmptyScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyScreenViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,10 +126,12 @@
 				EB2C0B682BC0690E00DE0268 /* AppDelegate.swift */,
 				EB2C0B6A2BC0690E00DE0268 /* SceneDelegate.swift */,
 				EB2C0B6C2BC0690E00DE0268 /* ViewController.swift */,
+				EBD0C1112BCA9EFE0099A0E0 /* EmptyScreenViewController.swift */,
 				EB2C0B6E2BC0690E00DE0268 /* Main.storyboard */,
 				EB2C0B712BC0691000DE0268 /* Assets.xcassets */,
 				EB2C0B732BC0691000DE0268 /* LaunchScreen.storyboard */,
 				EB2C0B762BC0691000DE0268 /* Info.plist */,
+				EB2C0C952BC95CBB00DE0268 /* Alegreya */,
 			);
 			path = Lotos;
 			sourceTree = "<group>";
@@ -125,6 +151,24 @@
 				EB2C0B8B2BC0691000DE0268 /* LotosUITestsLaunchTests.swift */,
 			);
 			path = LotosUITests;
+			sourceTree = "<group>";
+		};
+		EB2C0C952BC95CBB00DE0268 /* Alegreya */ = {
+			isa = PBXGroup;
+			children = (
+				EB2C0C962BC95CBB00DE0268 /* Alegreya-Italic.ttf */,
+				EB2C0C972BC95CBB00DE0268 /* Alegreya-ExtraBold.ttf */,
+				EB2C0C982BC95CBB00DE0268 /* Alegreya-MediumItalic.ttf */,
+				EB2C0C992BC95CBB00DE0268 /* Alegreya-ExtraBoldItalic.ttf */,
+				EB2C0C9A2BC95CBB00DE0268 /* Alegreya-Bold.ttf */,
+				EB2C0C9B2BC95CBB00DE0268 /* Alegreya-BlackItalic.ttf */,
+				EB2C0C9C2BC95CBB00DE0268 /* Alegreya-BoldItalic.ttf */,
+				EB2C0C9D2BC95CBB00DE0268 /* Alegreya-Black.ttf */,
+				EB2C0C9E2BC95CBB00DE0268 /* OFL.txt */,
+				EB2C0C9F2BC95CBB00DE0268 /* Alegreya-Regular.ttf */,
+				EB2C0CA02BC95CBB00DE0268 /* Alegreya-Medium.ttf */,
+			);
+			path = Alegreya;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -248,6 +292,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB2C0CA22BC95CBB00DE0268 /* Alegreya-ExtraBold.ttf in Resources */,
+				EB2C0CA72BC95CBB00DE0268 /* Alegreya-BoldItalic.ttf in Resources */,
+				EB2C0CA82BC95CBB00DE0268 /* Alegreya-Black.ttf in Resources */,
+				EB2C0CAA2BC95CBB00DE0268 /* Alegreya-Regular.ttf in Resources */,
+				EB2C0CA92BC95CBB00DE0268 /* OFL.txt in Resources */,
+				EB2C0CAB2BC95CBB00DE0268 /* Alegreya-Medium.ttf in Resources */,
+				EB2C0CA32BC95CBB00DE0268 /* Alegreya-MediumItalic.ttf in Resources */,
+				EB2C0CA52BC95CBB00DE0268 /* Alegreya-Bold.ttf in Resources */,
+				EB2C0CA42BC95CBB00DE0268 /* Alegreya-ExtraBoldItalic.ttf in Resources */,
+				EB2C0CA62BC95CBB00DE0268 /* Alegreya-BlackItalic.ttf in Resources */,
+				EB2C0CA12BC95CBB00DE0268 /* Alegreya-Italic.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,6 +313,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EBD0C1122BCA9EFE0099A0E0 /* EmptyScreenViewController.swift in Sources */,
 				EB2C0B6D2BC0690E00DE0268 /* ViewController.swift in Sources */,
 				EB2C0B692BC0690E00DE0268 /* AppDelegate.swift in Sources */,
 				EB2C0B6B2BC0690E00DE0268 /* SceneDelegate.swift in Sources */,

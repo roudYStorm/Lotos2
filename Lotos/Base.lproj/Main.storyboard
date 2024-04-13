@@ -3,11 +3,18 @@
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22131"/>
-        <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <array key="Alegreya-Bold.ttf">
+            <string>Alegreya-Bold</string>
+        </array>
+        <array key="Alegreya-Regular.ttf">
+            <string>Alegreya-Regular</string>
+        </array>
+    </customFonts>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
@@ -17,36 +24,99 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="главный экран" translatesAutoresizingMaskIntoConstraints="NO" id="qtv-SK-vcj">
-                                <rect key="frame" x="-13" y="-9" width="418" height="891"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="главный экран" translatesAutoresizingMaskIntoConstraints="NO" id="qtv-SK-vcj">
+                                <rect key="frame" x="-13" y="-11" width="419" height="891"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PJy-AP-6Fl">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PJy-AP-6Fl">
                                 <rect key="frame" x="36" y="681" width="321" height="61"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="61" id="rYx-jS-TrH"/>
+                                </constraints>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title=" Войти в аккаунт">
+                                    <fontDescription key="titleFontDescription" name="Alegreya-Regular" family="Alegreya" pointSize="25"/>
                                     <color key="baseBackgroundColor" name="Color"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action destination="BYZ-38-t0r" eventType="touchUpInside" id="SDa-Dp-D5N">
+                                        <string key="selector">IBActionfuncopenEmptyScreen_senderUIButtonletstoryboardUIStoryboardnameMainbundlenilifletemptyScreenVCstoryboardinstantiateViewControllerwithIdentifierEmptyScreenViewControllerselfpresentemptyScreenVCanimatedtruecompletionnilopenEmptyScreen:</string>
+                                    </action>
+                                    <action selector="openEmptyScreen:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aRI-E3-gAe"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D8a-cp-1X5">
-                                <rect key="frame" x="44" y="760" width="305" height="24"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D8a-cp-1X5">
+                                <rect key="frame" x="184.66666666666666" y="771" width="24" height="14"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Еще нет аккаунта? Зарегистрируйтесь">
+                                <buttonConfiguration key="configuration" style="plain" title="" titleAlignment="center">
                                     <backgroundConfiguration key="background"/>
-                                    <fontDescription key="titleFontDescription" type="system" pointSize="9"/>
+                                    <fontDescription key="titleFontDescription" name="Alegreya-Regular" family="Alegreya" pointSize="20"/>
                                     <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NFE-jC-vpf">
+                                <rect key="frame" x="35" y="771" width="323" height="24"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="24" id="LQ5-Lf-w79"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Еще нет аккаунта? Зарегистрируйтесь">
+                                    <fontDescription key="titleFontDescription" name="Alegreya-Regular" family="Alegreya" pointSize="16"/>
+                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ПРИВЕТ" textAlignment="justified" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VDf-cr-FAP">
+                                <rect key="frame" x="131.33333333333337" y="411" width="130.66666666666663" height="47"/>
+                                <fontDescription key="fontDescription" name="Alegreya-Bold" family="Alegreya" pointSize="34"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FWo-ZP-601">
+                                <rect key="frame" x="175" y="466" width="87" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Alegreya-Regular" family="Alegreya" pointSize="20"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="PJy-AP-6Fl" firstAttribute="centerX" secondItem="D8a-cp-1X5" secondAttribute="centerX" id="CRK-gj-dx2"/>
+                            <constraint firstItem="VDf-cr-FAP" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="352" id="DDu-mt-qld"/>
+                            <constraint firstItem="D8a-cp-1X5" firstAttribute="top" secondItem="PJy-AP-6Fl" secondAttribute="bottom" constant="29" id="FUc-tb-yd3"/>
+                            <constraint firstItem="PJy-AP-6Fl" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="36" id="Hgt-m1-NZ0"/>
+                            <constraint firstItem="NFE-jC-vpf" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="bottom" constant="-47" id="LGh-6c-GCa"/>
+                            <constraint firstItem="PJy-AP-6Fl" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="622" id="NdO-BC-ezS"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="qtv-SK-vcj" secondAttribute="bottom" constant="-62" id="RTh-Ma-xSD"/>
+                            <constraint firstItem="VDf-cr-FAP" firstAttribute="centerX" secondItem="NFE-jC-vpf" secondAttribute="centerX" id="Ugt-RF-aqX"/>
+                            <constraint firstItem="PJy-AP-6Fl" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="VsV-Fy-csz"/>
+                            <constraint firstItem="qtv-SK-vcj" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" constant="-70" id="XvB-Iy-hgn"/>
+                            <constraint firstItem="VDf-cr-FAP" firstAttribute="centerX" secondItem="PJy-AP-6Fl" secondAttribute="centerX" id="bkl-1u-2ck"/>
+                            <constraint firstItem="VDf-cr-FAP" firstAttribute="centerY" secondItem="qtv-SK-vcj" secondAttribute="centerY" id="du0-Rv-ABR"/>
+                            <constraint firstItem="PJy-AP-6Fl" firstAttribute="centerX" secondItem="qtv-SK-vcj" secondAttribute="centerX" id="oPo-PH-Nb4"/>
+                            <constraint firstItem="NFE-jC-vpf" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="35" id="qSB-bk-ZWb"/>
+                            <constraint firstItem="qtv-SK-vcj" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-29" id="zjO-Id-ih6"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-135.1145038167939" y="3.5211267605633805"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="cuI-eh-OpT">
+            <objects>
+                <viewController storyboardIdentifier="EmptyScreenViewController" id="gfn-Fm-2zn" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Iys-mu-oHk">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="ceJ-EL-42E"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6cj-dg-tlw" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="564" y="4"/>
         </scene>
     </scenes>
     <resources>
