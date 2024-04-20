@@ -7,19 +7,7 @@
 
 import UIKit
 
-сlass UIViewController: EmptyScreenViewController {
-
-    
-    @IBAction func openEmptyScreen(_ sender: UIButton) {
-        let storyboard = UIStoryboard(name: "Main", bundle: nil)
-        
-        if let emptyScreenVC = storyboard.instantiateViewController(withIdentifier: "EmptyScreenViewController") as? EmptyScreenViewController {
-            // Проверяем, что emptyScreenVC действительно является экземпляром EmptyScreenViewController
-        self.present(emptyScreenVC, animated: true, completion: nil)
-        } else {
-            print("Failed to instantiate EmptyScreenViewController from storyboard.")
-        }
-    }
+final сlass ViewController: UIViewController {
     
     
     override func viewDidLoad() {

@@ -27,7 +27,6 @@
 		EB2C0CA92BC95CBB00DE0268 /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = EB2C0C9E2BC95CBB00DE0268 /* OFL.txt */; };
 		EB2C0CAA2BC95CBB00DE0268 /* Alegreya-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EB2C0C9F2BC95CBB00DE0268 /* Alegreya-Regular.ttf */; };
 		EB2C0CAB2BC95CBB00DE0268 /* Alegreya-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EB2C0CA02BC95CBB00DE0268 /* Alegreya-Medium.ttf */; };
-		EBD0C1122BCA9EFE0099A0E0 /* EmptyScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD0C1112BCA9EFE0099A0E0 /* EmptyScreenViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,7 +71,6 @@
 		EB2C0C9E2BC95CBB00DE0268 /* OFL.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OFL.txt; sourceTree = "<group>"; };
 		EB2C0C9F2BC95CBB00DE0268 /* Alegreya-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Alegreya-Regular.ttf"; sourceTree = "<group>"; };
 		EB2C0CA02BC95CBB00DE0268 /* Alegreya-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Alegreya-Medium.ttf"; sourceTree = "<group>"; };
-		EBD0C1112BCA9EFE0099A0E0 /* EmptyScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyScreenViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,7 +124,6 @@
 				EB2C0B682BC0690E00DE0268 /* AppDelegate.swift */,
 				EB2C0B6A2BC0690E00DE0268 /* SceneDelegate.swift */,
 				EB2C0B6C2BC0690E00DE0268 /* ViewController.swift */,
-				EBD0C1112BCA9EFE0099A0E0 /* EmptyScreenViewController.swift */,
 				EB2C0B6E2BC0690E00DE0268 /* Main.storyboard */,
 				EB2C0B712BC0691000DE0268 /* Assets.xcassets */,
 				EB2C0B732BC0691000DE0268 /* LaunchScreen.storyboard */,
@@ -313,7 +310,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EBD0C1122BCA9EFE0099A0E0 /* EmptyScreenViewController.swift in Sources */,
 				EB2C0B6D2BC0690E00DE0268 /* ViewController.swift in Sources */,
 				EB2C0B692BC0690E00DE0268 /* AppDelegate.swift in Sources */,
 				EB2C0B6B2BC0690E00DE0268 /* SceneDelegate.swift in Sources */,
